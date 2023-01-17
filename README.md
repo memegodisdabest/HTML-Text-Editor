@@ -8,7 +8,9 @@ These instructions will get you a copy of the project up and running on your loc
 Text editor
 Installing
 Clone the repository to your local machine
-git clone https://github.com/username/HTML_GuessingGame.git
+
+git clone https://github.com/memegodisdabest/HTML_GuessingGame
+
 Open the project in your text editor
 
 # Run the application in a web browser
