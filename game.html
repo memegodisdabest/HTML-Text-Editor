@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Guessing Game</title>
+  </head>
+  <body>
+    <h1>Guessing Game</h1>
+    <p>I'm thinking of a number between 1 and 10. Can you guess it?</p>
+    <input type="text" id="guess" placeholder="Your guess"/>
+    <button id="submit">Submit</button>
+    <div id="result"></div>
+  </body>
+  <script>
+    // Get DOM elements
+    let guessInput = document.getElementById('guess');
+    let submitButton = document.getElementById('submit');
+    let resultElement = document.getElementById('result');
+    
+    // Generate a random number
+    let randomNumber = Math.floor(Math.random() *
