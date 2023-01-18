@@ -9,7 +9,7 @@ Text editor
 Installing
 Clone the repository to your local machine
 
-git clone https://github.com/memegodisdabest/HTML_GuessingGame
+git clone https://github.com/qtac1887/HTML-Text-Editor.git
 
 Open the project in your text editor
 
