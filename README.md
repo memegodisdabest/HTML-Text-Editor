@@ -1,4 +1,4 @@
-# HTML_GuessingGame
+# HTML Editor
 This project is a simple guessing game built with HTML. The game prompts the player to guess a randomly generated number between 1 and 10, and the player has 3 attempts to guess the number correctly. 
 
 # Getting Started
