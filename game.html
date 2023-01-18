@@ -1,19 +1,24 @@
 <html>
-  <head>
-    <title>Guessing Game</title>
-  </head>
-  <body>
-    <h1>Guessing Game</h1>
-    <p>I'm thinking of a number between 1 and 10. Can you guess it?</p>
-    <input type="text" id="guess" placeholder="Your guess"/>
-    <button id="submit">Submit</button>
-    <div id="result"></div>
-  </body>
-  <script>
-    // Get DOM elements
-    let guessInput = document.getElementById('guess');
-    let submitButton = document.getElementById('submit');
-    let resultElement = document.getElementById('result');
-    
-    // Generate a random number
-    let randomNumber = Math.floor(Math.random() *
+    <head>
+        <title>Text Editor App</title>
+        <meta name="description" content="A simple text editor app built with HTML, CSS and JavaScript">
+        <style>
+            textarea {
+                width: 100%;
+                height: 400px;
+                resize: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Text Editor App</h1>
+        <p>Use this text editor to create and save your documents.</p>
+        <textarea id="textarea" oninput="updateText()"></textarea>
+        <script>
+            function updateText() {
+                var textarea = document.getElementById('textarea');
+                document.getElementById('textarea').innerHTML = textarea.value;
+            }
+        </script>
+    </body>
+</html>
